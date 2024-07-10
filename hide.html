@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eaque animi eos officia voluptas. Possimus tenetur doloremque, quia in, debitis quae nostrum veniam autem tempore fugiat, magni distinctio maiores sit.</p>
+    <p></p>
+
+    <button onclick="fun()">hide</button>
+    <button onclick="fun1()">show</button>
+    <script>
+        function fun() {
+            document.getElementsByTagName("p")[0].style.display = "none"
+
+        }
+
+        function fun1() {
+            document.getElementsByTagName("p")[1].innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit.Mollitia eaque animi eos officia voluptas.Possimus tenetur doloremque, quia in , debitis quae nostrum veniam autem tempore fugiat, magni distinctio maiores sit."
+
+
+
+        }
+    </script>
+
+</body>
+
+</html>

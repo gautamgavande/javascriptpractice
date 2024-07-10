@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <label for="">enter name
+    <input type="text" ></label>
+    <button onclick="data()">submit</button>
+    <p>
+    </p>
+    <script>
+        function data() {
+            var a = document.getElementsByTagName("input")[0].value;
+            if (a === "") {
+                alert("please fill name");
+
+            } else {
+                alert("thanks")
+
+                document.getElementsByTagName("label")[0].style.display = "none"
+                document.getElementsByTagName("button")[0].style.display = "none"
+                document.getElementsByTagName("p")[0].innerHTML = "Thanks";
+            }
+
+        }
+    </script>
+</body>
+
+</html>
