@@ -67,7 +67,35 @@
 // a()
 
 
+///////////////////////////////call
+// function abcd(a,b,c){
+//     console.log(this.name)
+//     console.log(this)
+//     console.log(a,b,c)
+// }
+// let obj={name:"gautam"}
+// abcd.call(obj,1,2,3)
 
+////////apply
+// abcd.apply(obj,[1,2,3])
+
+
+/////////////bind
+// var a=abcd.bind(obj,1,2,3)
+// a()
+
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.shift();
+// console.log(fruits)
+// fruits.unshift("Lemon");
+// console.log(fruits);
+// console.log(fruits)
+// fruits.splice(2,0,"Grapes","Strawberry");//[ 'Banana', 'Orange', 'Grapes', 'Strawberry', 'Apple', 'Mango' ]
+// console.log(fruits)
+
+let arrr =fruits.slice(1,3)
+console.log(arrr)
 
 
 
