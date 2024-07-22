@@ -70,22 +70,24 @@
 
 
 
-function Person(a,b){
-    this.name=a
-    this.age=b
-}
-let p1=new Person("gautam",20)
-let p2=new Person("gautam1",21)
+// function Person(a,b){
+//     this.name=a
+//     this.age=b
+// }
+// let p1=new Person("gautam",20)
+// let p2=new Person("gautam1",21)
 
-Person.car="maruti"// isse add nahi hongi property prototype ka use karna padenga
-console.log(p1,p2) //Person { name: 'gautam', age: 20 } Person { name: 'gautam1', age: 21 }
+// Person.car="maruti"  // isse add nahi hongi property prototype ka use karna padenga
+// console.log(p1,p2)  //  Person { name: 'gautam', age: 20 } Person { name: 'gautam1', age: 21 }
 
-//using prototype to add 
-Person.prototype.car="maruti"
-console.log(p1,p2) //Person { name: 'gautam', age: 20 } Person { name: 'gautam1', age: 21 }
+// //using prototype to add 
+// Person.prototype.car="maruti"
+// console.log(p1,p2) //Person { name: 'gautam', age: 20 } Person { name: 'gautam1', age: 21 }
 
-console.log(p1.car)//maruti///isme bhi value nahi batayenga iske lia specially property name likhana padenga tab access hongi
-p1.car='suzuki'
-console.log(p1) 
-//khud ki car ki value denga
-console.log(p1.__proto__.car)//parent ki car means original canstructor function ki propety access karne ke lia __proto__ ka use karte hai 
+// console.log(p1.car)//maruti///isme bhi value nahi batayenga iske lia specially property name likhana padenga tab access hongi
+// p1.car='suzuki'
+// console.log(p1) 
+// //khud ki car ki value denga
+// console.log(p1.__proto__.car)//parent ki car means original canstructor function ki propety access karne ke lia __proto__ ka use karte hai 
+
+

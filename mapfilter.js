@@ -79,12 +79,12 @@
 // console.log(a)
 
 /////////////////////////////////////////////////////////////
-// let arr=[1,2,3,4,5,6,7,8,9,10]
-// let newarr=arr.map((e)=>{
-//     return 2*e
-// })
-// console.log("map: it is orignal array",arr)
-// console.log("map: it is new array",newarr)
+let arr=[1,2,3,4,5,6,7,8,9,10]
+let newarr=arr.map((e)=>{
+    return 2*e
+})
+console.log("map: it is orignal array",arr)
+console.log("map: it is new array",newarr)
 
 // let newfilter=arr.filter((e)=>{
 //     return e%2===0
