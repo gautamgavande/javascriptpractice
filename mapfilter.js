@@ -78,22 +78,22 @@
 // var a;
 // console.log(a)
 
+/////////////////////////////////////////////////////////////
+// let arr=[1,2,3,4,5,6,7,8,9,10]
+// let newarr=arr.map((e)=>{
+//     return 2*e
+// })
+// console.log("map: it is orignal array",arr)
+// console.log("map: it is new array",newarr)
 
-let arr=[1,2,3,4,5,6,7,8,9,10]
-let newarr=arr.map((e)=>{
-    return 2*e
-})
-console.log("map: it is orignal array",arr)
-console.log("map: it is new array",newarr)
+// let newfilter=arr.filter((e)=>{
+//     return e%2===0
+// })
+// console.log("filter: it is orignal array",arr)
+// console.log("filter: it is new array",newfilter)
 
-let newfilter=arr.filter((e)=>{
-    return e%2===0
-})
-console.log("filter: it is orignal array",arr)
-console.log("filter: it is new array",newfilter)
-
-let arrredus=arr.reduce((result,item)=>{
-    return result+item
-})
-console.log("reduce: it is orignal array",arr)
-console.log("reduce: it is new array",arrredus)
+// let arrredus=arr.reduce((result,item)=>{
+//     return result+item
+// })
+// console.log("reduce: it is orignal array",arr)
+// console.log("reduce: it is new array",arrredus)

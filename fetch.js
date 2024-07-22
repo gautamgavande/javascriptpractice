@@ -34,9 +34,9 @@
 // getdata()
 
 
-async function get(){
-    let res= await fetch("https://jsonplaceholder.typicode.com/comments")
-    let final=await res.json()
-    console.log(final)
-}
-get()
+// async function get(){
+//     let res= await fetch("https://jsonplaceholder.typicode.com/comments")
+//     let final=await res.json()
+//     console.log(final)
+// }
+// get()
