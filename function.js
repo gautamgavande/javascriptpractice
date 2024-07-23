@@ -18,12 +18,12 @@
 
 
 ///callback function 
-function callb(a,show){
-     console.log(a)
-     show()
-}
+// function callb(a,show){
+//      console.log(a)
+//      show()
+// }
 
-function show(){
-    console.log("hii i am show")
-}
-callb(5,show)
+// function show(){
+//     console.log("hii i am show")
+// }
+// callb(5,show)

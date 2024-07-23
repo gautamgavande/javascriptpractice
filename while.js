@@ -51,20 +51,41 @@
 // }while(i<0)
 
 
-function isfebonaci(n){
-    let a=0
-    let b=1
-    let temp;
-    if(n >=0){console.log(a)}
+// function isfebonaci(n){
+//     let a=0
+//     let b=1
+//     let temp;
+//     if(n >=0){console.log(a)}
 
-    if(n >=0){console.log(b)}
+//     if(n >=0){console.log(b)}
 
-    for(let i=2;i<=n;i++){
-            temp=a+b;
-            a=b;
-            b=temp;
-            console.log(temp)
+//     for(let i=2;i<=n;i++){
+//             temp=a+b;
+//             a=b;
+//             b=temp;
+//             console.log(temp)
             
-        }
+//         }
+// }
+// isfebonaci(8)
+
+
+// const b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// for (let i = 0; i < 10; i++) {
+//   setTimeout(() => console.log(b[i]), 1000);
+// }
+
+// for (var i = 0; i < 10; i++) {
+//   setTimeout(() => console.log(b[i]), 1000);
+// }
+
+
+// let a=10;
+// var b=20;
+{
+    var a=55;
+    // console.log(a)
 }
-isfebonaci(8)
+// add()
+console.log(a)
