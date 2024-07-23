@@ -44,8 +44,27 @@
 //   // i=i+1;
 //   i++;
 // }
-var i=1
-do{
-console.log("hii")
-i++;
-}while(i<0)
+// var i=1
+// do{
+// console.log("hii")
+// i++;
+// }while(i<0)
+
+
+function isfebonaci(n){
+    let a=0
+    let b=1
+    let temp;
+    if(n >=0){console.log(a)}
+
+    if(n >=0){console.log(b)}
+
+    for(let i=2;i<=n;i++){
+            temp=a+b;
+            a=b;
+            b=temp;
+            console.log(temp)
+            
+        }
+}
+isfebonaci(8)

@@ -8,21 +8,21 @@
 
  Here is a basic example of a factory function: */
 
-//  function createPerson(name, age) {
-//     return {
-//       name: name,
-//       age: age,
-//       greet: function() {
-//         console.log(`Hello, my name is ${this.name}`);
-//       }
-//     };
-//   }
+ function createPerson(name, age) {
+    return {
+      name: name,
+      age: age,
+      greet: function() {
+        console.log(`Hello, my name is ${this.name}`);
+      }
+    };
+  }
   
-//   const person1 = createPerson("John", 30);
-//   const person2 = createPerson("Jane", 25);
+  const person1 = createPerson("John", 30);
+  const person2 = createPerson("Jane", 25);
   
-//   person1.greet(); // Output: Hello, my name is John
-//   person2.greet(); //
+  person1.greet(); // Output: Hello, my name is John
+  person2.greet(); //
 
 
 
@@ -30,23 +30,23 @@
 
 
 
-const personProto = {
+// const personProto = {
 
-    greet: function() {
-      console.log("Hello, my name is " + this.name);
-    }
-  };
+//     greet: function() {
+//       console.log("Hello, my name is " + this.name);
+//     }
+//   };
   
-  const john = Object.create(personProto);
-  const gautam=Object.create(personProto)
+//   const john = Object.create(personProto);
+//   const gautam=Object.create(personProto)
 
-  john.name = "John";
-  john.age = 30;
+//   john.name = "John";
+//   john.age = 30;
 
-  gautam.name="gautam"
-  gautam.age=20
+//   gautam.name="gautam"
+//   gautam.age=20
   
-  console.log(gautam)
-  console.log(john)
+//   console.log(gautam)
+//   console.log(john)
 
 
