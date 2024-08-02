@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="box" style="background-color: red;height: 200px;width: 200px;"></div>
+    <br>
+    <button onclick="changesize()">change size</button>
+    <script>
+        function changesize() {
+            let size=document.getElementById("box")
+            let height=Math.floor(Math.random()*100)
+            let width=Math.floor(Math.random()*100)
+            console.log({"hight":height,"width":width})
+            size.style.height=`${height+100}px`
+            size.style.width=`${width+100}px`
+        }
+    </script>
+</body>
+</html>
