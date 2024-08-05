@@ -34,10 +34,21 @@
 // }
 // console.log(symbols);
 
-for (let i = 0; i < 5; i++) {
-    let row = '';
-    for (let j = 0; j < 5; j++) {
-        row += '*';
-    }
-    console.log(row);
+// for (let i = 0; i < 5; i++) {
+//     let row = '';
+//     for (let j = 0; j < 5; j++) {
+//         row += '*';
+//     }
+//     console.log(row);
+// }
+
+let str="abhishek"
+let count=0;
+
+for(let i=0;i<str.length;i++){
+  if(str[i]=="a" || str[i]=="e" ||str[i]=="i"|| str[i]=="o" || str[i]=="u"){
+    count+=1;
+    console.log(str[i])
+  }
 }
+console.log(count)
