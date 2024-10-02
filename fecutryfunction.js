@@ -17,9 +17,9 @@
       }
     };
   }
-  
   const person1 = createPerson("John", 30);
   const person2 = createPerson("Jane", 25);
+  console.log(person1)
   
   person1.greet(); // Output: Hello, my name is John
   person2.greet(); //
