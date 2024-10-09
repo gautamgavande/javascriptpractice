@@ -33,22 +33,22 @@
 
 //......................PROMISE..................
 
-// const getpromise=()=>{
-//     return new Promise((resolve,reject)=>{
-//         console.log("i am promiss")
-//         // resolve("sucsess")
-//         reject("promiss rejected")
-//     });
-// }
+const getpromise=()=>{
+    return new Promise((resolve,reject)=>{
+        console.log("i am promiss")
+        // resolve("sucsess")
+        reject("promiss rejected")
+    });
+}
 
-// let promise=getpromise();
-// promise.then((res)=>{
-//     console.log("promise fulfild",res)
-// })
+let promise=getpromise();
+promise.then((res)=>{
+    console.log("promise fulfild",res)
+})
 
-// promise.catch((err1)=>{
-//     console.log("rejected",err1)
-// })
+promise.catch((err1)=>{
+    console.log("rejected",err1)
+})
 
 //.........................................
 
@@ -278,17 +278,33 @@
 //       console.error(error.message);
 //     });
 // student object
-let student = {
-    name: "John"
-};
+// let student = {
+//     name: "John"
+// };
 
-// add new method
-student.greet = function () {
-    console.log("Hello");
-};
+// // add new method
+// student.greet = function () {
+//     console.log("Hello");
+// };
 
-// access greet() method
-student.greet();
-console.log(student)
+// // access greet() method
+// student.greet();
+// console.log(student)
 
 // Output: Hello
+
+
+// let age=21;
+// function add(){
+//     const data =new Promise(function(resolve,reject){
+//         if(age>20){
+//             resolve("iligi")
+//         }else{
+//             reject("not")
+//         }
+        
+
+//     })
+//     console.log(data)
+// }
+// add()
